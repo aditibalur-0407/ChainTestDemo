@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ChainTest Suite">
+  <listeners>
+  	<listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"></listener>
+  </listeners>
+  <test name="Basic Test">
+    <classes>
+      <class name="tests.LoginTest"/>
+    </classes>
+  </test>
+</suite>
