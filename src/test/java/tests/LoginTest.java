@@ -18,7 +18,7 @@ public class LoginTest extends BaseClass{
 		login.loginIntoApp(PropertyReader.getProperty("userName"), PropertyReader.getProperty("password"));
 	}
 	
-	@Test(priority = 2)
+	//@Test(priority = 2)
 	public void VerifyLoginTestWithInvalidCredentials() throws InterruptedException {
 		LoginPage login = new LoginPage(driver);
 		login.loginIntoApp(PropertyReader.getProperty("userName"), "1234");

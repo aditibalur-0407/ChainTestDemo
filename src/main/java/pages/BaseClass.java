@@ -142,6 +142,6 @@ public class BaseClass {
 	@AfterSuite
 	public void tearDown() throws AddressException, IOException, MessagingException {
 		driver.quit();
-		sendEmail();
+		//sendEmail();
 	}
 }
